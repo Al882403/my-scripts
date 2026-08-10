@@ -419,7 +419,7 @@ var UI = (function(){
                         },
                         close: function(){
 							$("body").css("overflow","")
-							$(".ui-container").css("position","absolute");	$("html").css("position","absolute");$("html").css("width","100%");	console.log("css auto absolute");					 
+							$(".ui-container").css("position","absolute");	$("html").css("position","absolute");$("html").css("width","100%");	console.log("css auto absolute 555");					 
                             EventManger.trigger(UIEvents.NOTES_CLOSE);
                         }
 
@@ -458,7 +458,7 @@ var UI = (function(){
             $(".footer-container").removeClass("inactive");
             $(".accessible.menu-btn").focus();
 			$("body").css("overflow","")
-			$(".ui-container").css("position","absolute"); 	console.log("css auto absolute");		
+			$(".ui-container").css("position","absolute"); 	console.log("css auto absolute 555");		
             return false;
         });
         
@@ -466,7 +466,7 @@ var UI = (function(){
          $(".menu .close").on("keydown",function(e){
             if(e.which == 13 || e.which == 32){
 				$("body").css("overflow","")
-			$(".ui-container").css("position","absolute"); 	console.log("css auto absolute");		
+			$(".ui-container").css("position","absolute"); 	console.log("css auto absolute 555");		
                 $(".menu .close").click();
                 e.preventDefault();
             }
@@ -482,7 +482,7 @@ var UI = (function(){
               $(".footer-container").removeClass("inactive");
               $(".accessible-menu li a").attr("tabindex","-1");
 			  $("body").css("overflow","")
-			$(".ui-container").css("position","absolute");	$("html").css("position","absolute");$("html").css("width","100%");	console.log("css auto absolute");				
+			$(".ui-container").css("position","absolute");	$("html").css("position","absolute");$("html").css("width","100%");	console.log("css auto absolute 555");				
           }
         });
         
@@ -573,7 +573,7 @@ var UI = (function(){
                 },
                 close:function(){
                     EventManger.trigger(UIEvents.GLOSSARY_CLOSED)
-					$("body").css("overflow",""); console.log("css auto absolute");;
+					$("body").css("overflow",""); console.log("css auto absolute 555");;
 					$(".ui-container").css("position","absolute");
                 }
             }
@@ -594,8 +594,8 @@ var UI = (function(){
                 },
                 close:function(){
                     EventManger.trigger(UIEvents.HELP_CLOSE);
-					$("body").css("overflow",""); console.log("css auto absolute");;
-				$(".ui-container").css("position","absolute");	$("html").css("position","absolute");$("html").css("width","100%");	console.log("css auto absolute");			
+					$("body").css("overflow",""); console.log("css auto absolute 555");;
+				$(".ui-container").css("position","absolute");	$("html").css("position","absolute");$("html").css("width","100%");	console.log("css auto absolute 555");			
                 }
             }
         });
@@ -613,7 +613,7 @@ var UI = (function(){
                 },
                 close:function(){
                     EventManger.trigger(UIEvents.CREDITS_CLOSE);
-					$("body").css("overflow",""); console.log("css auto absolute");;
+					$("body").css("overflow",""); console.log("css auto absolute 555");;
 				$(".ui-container").css("position","absolute");
                 }
             }
