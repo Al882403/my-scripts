@@ -1,5 +1,3 @@
-alert('working')
-
 var UI = (function(){
     
     var EventManger = {};
@@ -856,6 +854,8 @@ var UI = (function(){
     
     
 })();
+
+
 
 
 
